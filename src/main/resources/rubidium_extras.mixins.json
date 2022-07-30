@@ -6,6 +6,7 @@
   "mixins": [
     "fog.MixinSodiumWorldRenderer",
     "SodiumConfig.SodiumGameOptionsMixin",
+    "JEI.IngredientListOverlayMixin",
     "Zoom.PlayerInventoryMixin"
   ],
   "minVersion": "0.8",
