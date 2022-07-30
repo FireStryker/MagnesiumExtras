@@ -30,7 +30,7 @@ public class MagnesiumExtrasConfig
     public static ConfigValue<Boolean> fog;
     public static ConfigValue<Boolean> enableDistanceChecks;
 
-    public static ConfigValue<Boolean> hideJEI;
+    // public static ConfigValue<Boolean> hideJEI;
 
     // Ok Zoomer
     public static ZoomValues zoomValues = new ZoomValues();
@@ -73,7 +73,7 @@ public class MagnesiumExtrasConfig
             cloudHeight = b.define("Cloud Height [Raw, Default 256]", 256);
             fadeInQuality =  b.define("Chunk Fade In Quality (OFF, FAST, FANCY)", "FANCY");
             fog = b.define("Render Fog", true);
-            hideJEI = b.define("Hide JEI Until Searching", true);
+            // hideJEI = b.define("Hide JEI Until Searching", false);
             fullScreenMode = b.defineEnum("Use Borderless Fullscreen", FullscreenMode.FULLSCREEN);
         });
 
